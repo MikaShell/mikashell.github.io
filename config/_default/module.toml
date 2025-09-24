@@ -9,8 +9,12 @@
 
 ## content
 [[mounts]]
-  source = "content"
+  source = "content/en"
   target = "content"
+[[mounts]]
+  source = "content/zh-cn"
+  target = "content"
+  lang = "zh-cn"
 
 ## data
 [[mounts]]
