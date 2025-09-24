@@ -5,10 +5,10 @@
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "files.exclude": {
-    "**/public": true,
     "**/node_modules": true,
     "**/.envrc": true,
-    "**/resources": true,
-    "**/Thumbs.db": true
+    "**/.direnv": true,
+    "**/public": true,
+    "**/resources": true
   }
 }

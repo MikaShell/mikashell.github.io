@@ -3,7 +3,7 @@
   go,
   hugo,
   git,
-  bun,
+  nodejs_24,
   ...
 }: let
 in
@@ -12,6 +12,6 @@ in
       go
       hugo
       git
-      bun
+      nodejs_24
     ];
   }
