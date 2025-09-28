@@ -1,14 +1,11 @@
 ---
-title: "Reference"
+title: "教程"
 description: ""
 summary: ""
-date: 2023-09-07T16:12:37+02:00
-lastmod: 2023-09-07T16:12:37+02:00
+date: 2025-09-26T14:43:11+08:00
 draft: false
-weight: 900
+weight: 200
 toc: true
-sidebar:
-  collapsed: true
 seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)

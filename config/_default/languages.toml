@@ -1,20 +1,21 @@
 [en]
-  contentDir = "content/en"
-  disabled = false
-  languageCode = 'en-US'
-  languageDirection = 'ltr'
-  languageName = 'English'
-  title = 'MikaShell'
-  weight = 10
-  [en.params]
-    footer = 'Brought to you by <a class="text-muted" href="https://thulite.io/">Thulite</a>'
+contentDir = "content/en"
+disabled = false
+languageCode = 'en-US'
+languageDirection = 'ltr'
+languageName = 'English'
+title = 'MikaShell'
+weight = 10
+[en.params]
+footer = 'Brought to you by <a class="text-muted" href="https://thulite.io/">Thulite</a>'
 
 [zh-cn]
-  contentDir = "content/zh-cn"
-  disabled = false
-  languageCode = 'zh-CN'
-  languageDirection = 'ltr'
-  languageName = '简体中文'
-  title = 'MikaShell'
-  [zh-cn.params]
-    footer = 'Brought to you by <a class="text-muted" href="https://thulite.io/">Thulite</a>'
+contentDir = "content/zh-cn"
+disabled = false
+languageCode = 'zh-CN'
+languageDirection = 'ltr'
+languageName = '简体中文'
+title = 'MikaShell'
+[zh-cn.params]
+alertText = "MikaShell 正在积极开发中，尚不稳定!"
+footer = 'Brought to you by <a class="text-muted" href="https://thulite.io/">Thulite</a>'

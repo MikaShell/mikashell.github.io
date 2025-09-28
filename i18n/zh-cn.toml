@@ -1,1 +1,10 @@
 get_started = "开始使用"
+
+features1-title = "享受已有的 web 技术生态"
+features1-text = "就只是编写前端页面而已，无论你是使用 React、Angular、Vue 还是其他技术栈，都可以轻松地集成到你的项目中。"
+
+features2-title = "组合多个前端项目"
+features2-text = "如果你同时喜欢上了多个前端，你可以将他们组合在一起，只需要简单修改配置。"
+
+features3-title = "易于使用"
+features3-text = "与桌面交互的部分（dbus, wayland...）都有 TypeScript 绑定——你只需要调用即可，不会很复杂。"
