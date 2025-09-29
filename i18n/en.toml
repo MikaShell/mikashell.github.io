@@ -4,7 +4,7 @@ features1-title = "Enjoy the Existing Web Tech Ecosystem"
 features1-text = "It’s just about building front-end pages. Whether you use React, Angular, Vue, or any other stack, you can easily integrate it into your project."
 
 features2-title = "Combine Multiple Front-End Projects"
-features2-text = "If you’re fond of several front-end frameworks at once, you can combine them with just a few simple configuration changes."
+features2-text = "If you’re fond of several front-end projects at once, you can combine them with just a few simple configuration changes."
 
 features3-title = "Easy to Use"
 features3-text = "All the desktop interaction parts (dbus, Wayland, etc.) have TypeScript bindings—you only need to call them, nothing complicated."
