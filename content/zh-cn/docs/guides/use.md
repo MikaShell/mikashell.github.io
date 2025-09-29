@@ -18,11 +18,11 @@ seo:
 
 如果你因为某些原因需要清除 mika-shell 产生的数据，知道这些这会有很有帮助。
 
-- `$XDG_CONFIG_HOME/mika-shel` 是存放配置文件以及前端文件的目录，或者你会更熟悉这个目录：`$HOME/.config/mika-shell`
+- `$XDG_CONFIG_HOME/mika-shel` 是存放配置文件以及前端文件的目录。或者你会更熟悉这个目录：`$HOME/.config/mika-shell`
 
-- `$HOME/.local/share/webkitgtk/` 是存放 Webview 数据的目录，网页产生的数据将会保存到此处，例如缓存、Cookie、localStorage等。
+- `$XDG_DATA_HOME/webkitgtk/` 是存放 Webview 数据的目录，网页产生的数据将会保存到此处，例如缓存、Cookie、localStorage等。或者你会更熟悉这个目录： `$HOME/.local/share/webkitgtk/`
 
-- `$HOME/.local/share/webkitgtk/` 是存放 Webview 缓存的目录，缓存文件将会保存到此处。
+- `$XDG_CACHE_HOME/webkitgtk/` 是存放 Webview 缓存的目录，缓存文件将会保存到此处。或者你会更熟悉这个目录： `$HOME/.cache/webkitgtk/`
 
 - mika-shell 还会在 `/tmp` 目录中创建类似 `/tmp/mika-shell-xxxx.sock` 的文件用于 IPC。
 
