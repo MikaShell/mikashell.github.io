@@ -5,7 +5,7 @@ description: ""
 summary: ""
 date: 2025-09-28T14:08:27+08:00
 draft: false
-weight: 201
+weight: 202
 toc: true
 seo:
   title: "" # custom title (optional)
@@ -23,6 +23,9 @@ mika-shell 将网页（html）显示到桌面上，所以我们首先得有用�
 
 ```json
 {
+    "dev": {
+        "vite-server": "http://localhost:5173/"
+    },
     "alias": {
         "bongocat": "/example/bongocat.html"
     },
@@ -88,3 +91,37 @@ const data = new URLSearchParams(window.location.search).get('data')
     },
 }
 ```
+
+## Dev
+
+`dev` 选项用于设置开发模式下的配置。如果你使用 Vite 或者其他工具进行开发，可以将 `Dev Server URL` 填写在 `dev` 选项中：
+
+```json
+{
+    "dev": {
+        "mikami": "http://localhost:5173/"
+    },
+    "startup": ["mikami.bar", "mikami.workspace", "mikami.desktop"]
+}
+```
+
+在以上的配置中，`http://localhost:5173/` 是 Vite 开发服务器的地址，这个地址可以通过 Vite 的配置修改。这个前端服务器会被映射为在配置文件夹中的一个文件夹。当 mika-shell 试图访问 `/mikami/index.html` 时，它会被映射到 `http://localhost:5173/index.html`。
+
+mika-shell 在检测到 `dev` 选项之后，会试图读取 `http://localhost:5173/alias.json`，例如在 `http://localhost:5173/alias.json` 中：
+
+```json
+{
+    "bar": "/#/bar",
+    "screenshot": "/#/screenshot",
+    "app-launcher": "/#/app-launcher",
+    "workspace": "/#/workspace",
+    "clipboard": "/#/clipboard",
+    "wf-recorder": "/#/wf-recorder",
+    "power-menu": "/#/power-menu",
+    "toolbar": "/#/toolbar",
+    "quick-run": "/#/quick-run",
+    "desktop": "/#/desktop"
+}
+```
+
+那么，就可以通过 `mikami.bar` 打开 `http://localhost:5173/#/bar` 页面。

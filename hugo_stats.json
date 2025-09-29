@@ -6,11 +6,13 @@
       "aside",
       "base",
       "body",
+      "br",
       "button",
       "circle",
       "code",
       "details",
       "div",
+      "em",
       "figcaption",
       "figure",
       "footer",
@@ -272,6 +274,7 @@
       "alias",
       "announcement",
       "buttonColorMode",
+      "dev",
       "doks-docs-nav",
       "doks-language-current",
       "doks-languages",
@@ -293,10 +296,16 @@
       "startup",
       "toc",
       "什么是-mikashell-",
+      "使用-typescript",
       "其他发行版",
+      "原生-html",
+      "必备基础",
+      "接下来是什么",
       "数据存储",
       "组合多个前端",
-      "运行"
+      "运行",
+      "通过前端框架创建项目",
+      "通过原生-html-创建项目"
     ]
   }
 }
