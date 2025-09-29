@@ -36,6 +36,10 @@ mikaShell.os.getSystemInfo().then(info => {
 npm install @mika-shell/core @mika-shell/extra
 ```
 
+{{< callout type="warning" >}}
+由于目前正在测试阶段，npm 的包可能过时，请优先从 [Releases](https://github.com/MikaShell/mika-shell/releases) 获取最新版本的包！！！
+{{< /callout >}}
+
 其中 `@mika-shell/core` 中包含了 `globalThis.mikaShell` 的所有内容，实际上 `@mika-shell/core` 仅作为类型提示。
 
 而 `@mika-shell/extra` 是基于 `@mika-shell/core` 开发了一些额外的模块，如 `hyprland` 等。

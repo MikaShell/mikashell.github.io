@@ -39,6 +39,10 @@ Install the `@mika-shell/core` and optional `@mika-shell/extra` packages via npm
 npm install @mika-shell/core @mika-shell/extra
 ```
 
+{{< callout type="warning" >}}
+Since this is still in the testing phase, the npm package may be outdated. Please get the latest version from [Releases](https://github.com/MikaShell/mika-shell/releases)
+{{< /callout >}}
+
 * `@mika-shell/core` includes everything in `globalThis.mikaShell`.
   In fact, `@mika-shell/core` mainly provides type definitions.
 * `@mika-shell/extra` builds on `@mika-shell/core` and offers additional modules such as `hyprland`.
