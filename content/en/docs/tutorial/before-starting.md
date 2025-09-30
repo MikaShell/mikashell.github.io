@@ -26,7 +26,7 @@ Even if you’ve never worked with frontend development before, you can treat mi
 
 ---
 
-### Essential Basics
+## Essential Basics
 
 1. **Understand HTML, CSS, and JavaScript**<br>
     mika-shell is built on these three core technologies, so mastering them is necessary.
@@ -43,3 +43,8 @@ Even if you’ve never worked with frontend development before, you can treat mi
     - [TypeScript](https://www.typescriptlang.org/) — JavaScript with type syntax.
     - [Tailwind CSS](https://tailwindcss.com/) — helps you avoid writing verbose CSS.
     - [Sass](https://sass-lang.com/) — a more advanced form of CSS.
+
+## AI Documentation
+
+[DeepWiki](https://deepwiki.com/MikaShell/mika-shell)
+[Zread](https://zread.ai/MikaShell/mika-shell)
