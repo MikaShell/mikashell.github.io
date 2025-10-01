@@ -196,6 +196,7 @@
       "mt-n3",
       "mx-2",
       "mx-auto",
+      "mx-xl-auto",
       "my-3",
       "nav",
       "nav-item",
@@ -262,12 +263,15 @@
       "title",
       "title-submitted",
       "toc-mobile",
+      "untranslated",
       "visually-hidden",
       "w-100",
       "wrap"
     ],
     "ids": [
       "TableOfContents",
+      "ai-documentation",
+      "ai-文档",
       "alias",
       "announcement",
       "buttonColorMode",
