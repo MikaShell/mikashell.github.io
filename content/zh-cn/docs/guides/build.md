@@ -18,6 +18,7 @@ seo:
 - 需要安装 Zig 0.15.1 版本
 - 需要安装 Git
 - 需要安装 pkg-config
+- 需要安装 esbuild
 
 1. 克隆项目到本地：
 
@@ -40,7 +41,7 @@ cd mika-shell
 ```bash
 zig build # 默认以 Debug 模式构建
 # 或者
-zig build --release-fast # 以 ReleaseFast 模式构建
+zig build --release=fast # 以 ReleaseFast 模式构建
 ```
 
 执行上述命令后，会将可执行文件安装到 `./zig-out/bin` 目录中。

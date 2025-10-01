@@ -18,6 +18,7 @@ seo:
 - Zig version 0.15.1 is required
 - Git is required
 - pkg-config is required
+- esbuild is required
 
 1. Clone the project to your local machine:
 
@@ -40,7 +41,7 @@ Please refer to [build ci](https://github.com/MikaShell/mika-shell/blob/b916ab3a
 ```bash
 zig build # Build in Debug mode by default
 # or
-zig build --release-fast # Build in ReleaseFast mode
+zig build --release=fast # Build in ReleaseFast mode
 ```
 
 After running the above commands, the executable will be installed into the `./zig-out/bin` directory.
