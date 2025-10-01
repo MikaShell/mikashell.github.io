@@ -24,6 +24,12 @@ There are two packages in the package: `default` and `debug`. `default` is built
 If you encounter problems, try using the `debug` package, which outputs more debugging information.
 However, in some cases it may run slower than the `default` package and consume more CPU.
 
+Install the package you want on your system, or run it with the nix run command:
+
+```bash
+nix run github:MikaShell/mika-shell#debug daemon
+```
+
 ## Other Distributions
 
 Sorry, I currently don’t have the energy to package for other distributions.

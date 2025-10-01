@@ -22,6 +22,12 @@ seo:
 
 在 package 中有两个软件包：`default` 和 `debug`。`default` 是以 `release-fast` 构建的,如果你遇到了问题，请尝试使用 `debug` 包，它会输出更多的调试信息。但是在某些情况下，它会比 `default` 包慢一些并且会占用更多的 CPU。
 
+将你想要的包安装到系统上，或者通过 `nix run` 命令运行：
+
+```bash
+nix run github:MikaShell/mika-shell#debug daemon
+```
+
 ## 其他发行版
 
 非常抱歉，目前我没有更多精力为其他发行版打包，下面提供一些或许通用的手动安装步骤：

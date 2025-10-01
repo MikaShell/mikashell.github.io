@@ -40,7 +40,13 @@ npm install @mika-shell/core @mika-shell/extra
 ```
 
 {{< callout type="warning" >}}
-Since this is still in the testing phase, the npm package may be outdated. Please get the latest version from [Releases](https://github.com/MikaShell/mika-shell/releases)
+Since this is still in the testing phase, the npm package may be outdated. Please get the latest version from [Releases](https://github.com/MikaShell/mika-shell/releases)!!!
+
+```bash
+npm install https://github.com/MikaShell/mika-shell/releases/download/latest/mika-shell-core-xxx.tgz
+npm install https://github.com/MikaShell/mika-shell/releases/download/latest/mika-shell-extra-xxx.tgz
+```
+
 {{< /callout >}}
 
 * `@mika-shell/core` includes everything in `globalThis.mikaShell`.
